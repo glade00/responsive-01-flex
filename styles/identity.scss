@@ -1,0 +1,17 @@
+.identity {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 0px 10px;
+}
+.identity__name {
+  font-size: 25px;
+  font-weight: bold;
+}
+.identity__life {
+  font-size: 25px;
+  color: red;
+}
+.identity__evolution {
+  font-size: 12px;
+}

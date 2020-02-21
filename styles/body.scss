@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+@mixin landscape {
+  @media (min-aspect-ratio: 1/1) {
+    @content;
+  }
+}
+
+.content {
+  @include landscape {
+    flex-basis: 50%;
+  }
+}

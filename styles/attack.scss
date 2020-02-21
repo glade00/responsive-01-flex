@@ -1,0 +1,21 @@
+.attack {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0px;
+}
+.attack__cost {
+  display: flex;
+  flex-shrink: 0;
+}
+.attack__damage {
+  font-size: 25px;
+}
+.attack__name {
+  font-size: 25px;
+  font-weight: bold;
+  padding-left: 15px;
+}
+.attack__details {
+  padding: 5px 15px;
+}

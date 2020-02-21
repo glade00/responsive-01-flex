@@ -1,0 +1,14 @@
+$gradient: linear-gradient(
+  -90deg,
+  rgba(150, 136, 1, 1) 0%,
+  rgba(241, 236, 35, 1) 35%,
+  rgba(255, 250, 169, 1) 100%
+);
+
+body {
+  border: 12px solid;
+  border-image-source: $gradient;
+  border-image-slice: 1;
+  background: #a7ff7c;
+  padding: 10px;
+}
